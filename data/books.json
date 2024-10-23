@@ -10,18 +10,6 @@
       "cover_image": "https://almabooks.com/wp-content/uploads/2016/10/9781847493699.jpg"
     },
     {
-      "id": "7",
-      "title": "The Catcher in the Rye",
-      "author": "J.D. Salinger",
-      "publication_year": 1951,
-      "genre": [
-        "Fiction",
-        "Coming-of-age"
-      ],
-      "description": "A classic coming-of-age novel following Holden Caulfield's journey.",
-      "cover_image": "https://marketplace.canva.com/EAFwDHlNW3c/1/0/1003w/canva-blue-simple-lines-notebook-book-cover-9BujhrCCK3w.jpg"
-    },
-    {
       "id": "8",
       "title": "The Hobbit",
       "author": "J.R.R. Tolkien",

@@ -1,0 +1,44 @@
+1. C’est quoi Docker , l’objectif d’utiliser Docker ?
+Docker : Plateforme de conteneurisation pour créer et gérer des applications dans des conteneurs.
+
+2. Installer et expliquer l’architecture docker
+Installation et architecture : Comprend le Docker Daemon, le Docker Client, les images et les conteneurs.
+
+3. C’est hub.docker.com ?
+Docker Hub : Registre en ligne pour partager et trouver des images Docker.
+
+4. Comment télécharger une image depuis hub.docker.com ?
+Télécharger une image : Utiliser docker pull <nom_de_l'image>.
+
+5. Télécharger nginex
+Télécharger Nginx : docker pull nginx.
+
+6. Afficher la liste des images
+Lister les images : docker images.
+
+7. Supprimer l’image nginex
+Supprimer Nginx : docker rmi nginx.
+
+8. Télécharger image mongodb
+Télécharger MongoDB : docker pull mongo.
+
+9. Construire un construire un container
+Créer un conteneur : docker run --name mon_conteneur -d mongo.
+
+10. Afficher la liste des containers actifs
+Lister conteneurs actifs : docker ps.
+
+11. Arrêter le container
+Arrêter un conteneur : docker stop <nom_du_conteneur>.
+
+12. Afficher la liste totale des containers 
+Lister tous les conteneurs : docker ps -a.
+
+13. Restart le container
+Redémarrer un conteneur : docker restart <nom_du_conteneur>.
+
+14. Supprimer le container
+Supprimer un conteneur : docker rm <nom_du_conteneur>.
+
+15. Virtualisation ? Vs Conteneurisation
+Virtualisation vs Conteneurisation : La virtualisation crée des VM avec des OS complets, tandis que la conteneurisation utilise un seul noyau OS et est plus légère.
